@@ -54,7 +54,13 @@ padding: 30px;
       Looks good!
     </div>
   </div>
-
+  <div class="col-md-12">
+    <label for="validationCustom01" class="form-label">2ایمیل</label>
+    <input style="max-width: 380px;" name="email2" type="email" class="form-control m-1" id="validationCustom01" placeholder="ایمیل" required>
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+  </div>
 
   <div class="col-md-12">
     <label for="validationCustom03" class="form-label">رمز عبور</label>
