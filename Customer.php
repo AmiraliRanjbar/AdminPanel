@@ -11,6 +11,7 @@ if ($conn->connect_error) {
   die ("اتصال به دیتابیس ناموفق بود" . $conn->connect_error);
 }
 
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $email = $_POST['email'];
   $password = $_POST['password'];
